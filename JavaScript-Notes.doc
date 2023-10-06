@@ -1,0 +1,217 @@
+JAVASCRIPT NOTES
+
+What is JavaScript?
+
+    - JavaScript is a lightweighted and interpreted (or just-in-time compiled) programming language with first-class functions. It is a scripting Language for web pages.
+    - JavaScript features are
+            - protype-based
+            - multi paradigm
+            - single threaded
+            - dynamic language
+            - supporting oops concept
+            - imperative and declarative(eg: functional programming)style.
+
+Histroy of JavaScript?
+
+    - JS was originally developed as "LiveScript" by Netscape in 1990's.
+    - JS was created by "Brendan Eich" in 1995 during his time at Netscape Communications.
+    - JS is client-side scripting language used for web applications at that time.
+
+
+    Note:
+
+        "JavaScript is not JAVA". 
+
+What are the applications or builing with using JS is possible?
+
+    - Website Development
+    - Web and Mobile applications
+    - Desktop Applicaitons 
+    - Game Development
+    - Server-Side Development
+    - Browser Extensions
+    - Real Time Applicaitons
+    - IoT
+    - Machine Learning and AI
+
+Why we should learn JS?
+
+    - Easier to start with learn
+    - Great career opportunities
+    - Wide range of usage
+    - Big community supporting
+    - High Demand for Future 
+
+What are the frameworks in JS?
+
+    - React JS
+    - Vue JS
+    - Angular JS
+    - React Native (Build Mobile Application)
+    - ElectronJS and much more (Build Desktop Applicaiton)
+    
+How JS works?
+
+    Old Method:
+
+             run
+    JS code ----> browser (Inbuilt JS Engine) ----> output
+
+    for eg: Google Chrome (V8 JS Engine), FireFox Browser (Spidermonkey JS Engine)
+
+    Limitation: For browser works only JS
+
+
+    New Method: 
+
+    - In 2009, Ryan Dahl (Scientist) introduce "JS Engine Wrapper into C++" it called as "Node".
+
+    Using Node, we can create,
+
+        - Web applications
+        - Mobile applications
+        - Backend applications
+
+ECMA Script?
+
+    - It is a Just a specification (set of rules).
+    - JS to follow ECMA Script
+
+
+JS Comments:
+
+    // - Single Line Comment
+    
+    /* ... */ - Multiline Comment
+
+How to run JavaScript in Node JS?
+
+    - Already installed node JS
+    - Check node version (using cmd)
+
+        node -v (v18.17.1)
+
+    - node js file name. eg: main.js
+
+JavaScript Variable:
+
+    - variable is a store in values and temporary memory allocation 
+
+    syntax:
+
+            var variableName = value;
+
+        Ex:
+            varibale name
+                   |
+                   |
+            var message = "Hello, my name is arun, I'm Learning JavaScript";
+             |                                  |
+             |                                  |
+    variable keyword                          value
+
+
+            console.log(message);
+    
+    Variable Keyword:
+
+        - var
+        - let
+        - const
+
+    Shortcut Tip: console opening (F12) for chrome
+
+    Concatnation Operator:
+
+        "content" + variableName
+        "content" + variableName + "conent"
+
+    Without value in variable ---> Undefined
+
+        Ex: let age;
+
+    JavaScript is dynamically typed language. don't need a data type.
+
+    Variable Naming Convention:
+
+        - Don't use reserved JS keywords name. (eg: let break)
+        - Should not start with numbers. (eg:5star)
+        - No space and hypen (-) (eg:note-pad or full name)
+        - It's Case-Sensitive (eg: fullName and FullName both are different.)
+        - Use valuable name
+
+    Tip: Variable name using "CamelCase" like fullName, getView and lastName, etc.,
+
+    var vs let:
+
+        var - old way of storing variables
+        let - new way of storing variables (After Improvement of ES6+)
+
+
+    const:
+
+        - const variable don't change the value (don't override the values). But let or var (override the values).
+        - const variable can't edit or modify the values.
+
+        Error:
+
+            Uncaught TypeError: Assignment to constant variable.
+
+JavaScript Datatypes:
+
+    - 2 types of Datatypes. there are "Primitive" and "Reference" Types
+
+        Primitive Types                         Reference Types
+
+            - String                                - Object
+            - Integer/Number                        - Array
+            - Float/Double                          - Function
+            - Boolean
+            - Undefined
+            - null
+
+    Statically Typed:
+
+        - Datatype is defined. (C, C++, Java)
+
+                    variableName
+                        |
+                        |
+                String name = "Arunkumar"
+                   |               |
+                   |               |
+                Datatype         value
+
+    Dynamically Typed:
+
+        - Datatype is not defined. (JavaScript, Python, PHP)
+
+              variableName
+                   |
+                   |
+                 name = "Arunkumar"
+                            |
+                            |
+                          value
+
+    Find the datatype ----> "typeof" keyword
+
+                typeof variableName
+
+        note: "null" is a Object Datatype
+
+
+
+
+
+
+
+
+
+
+
+REFERENCE LINKS:
+
+DEVELOPER MOZILLA FOUNDATION : https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+ECMA SCRIPT : https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
