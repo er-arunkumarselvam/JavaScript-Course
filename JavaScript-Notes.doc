@@ -200,13 +200,120 @@ JavaScript Datatypes:
 
         note: "null" is a Object Datatype
 
+JavaScript Object:
 
+    - Object declare using variable keywords and values represented inside the flower braces {}.
 
+    syntax:
 
+        
+        variableKeyword variableName = {}
 
+    Ex:
 
+        let person = {}
 
+        - It's an empty object
 
+    Object Values:
+
+        - It's represented as many types.
+
+            1. Key pair value
+
+        syntax:
+
+            key : value
+
+        - key is a unique 
+        - value is represent all datatypes.
+
+    Pass Multiple Parameters passing to objects using separated by (,) delimiter.
+
+    Ex: name : "Arunkumar", 
+        age : 24,
+
+    Object values reference or get the values from object.
+
+        - 2 Ways
+
+            - Dot Notation (.) (Mostly Used)
+
+            syntax:
+
+                objectName.key
+
+            Ex:
+
+                person.name
+
+                - Object Values are change (Override the values), but "Keys" Doesn't change
+
+            - Bracket Notation 
+
+            syntax:
+
+                objectName['key']
+
+            Ex:
+
+                person['name']
+
+    Object Freedom for creation for sub object.
+
+        syntax:
+
+            variableKeyword variableName = {
+                key : value,
+                key : {
+                    key:value
+                }
+            }
+
+JavaScript Arrays:
+
+    - Array is a collection of data.
+    - Array is an object
+    - It represent or denoted by []
+    - Arrays are Index based
+    - Index starts from 0
+    - One of the Important Property of array "array length"
+    - array length -1 = Max. Index no
+
+    syntax:
+
+        variableKeyword arrayName = []
+    
+    Ex:
+
+        let favColor = ['red', 'blue', 'green']
+
+    Access Array values using Index
+
+        arrayName[1] --> blue
+
+    Calculate an array length ----> arrayName.length
+
+    Ex: favColor.length  ----> 3
+
+JavaScript Functions:
+
+    - Function Create using keyword is "function".
+    - 2 parts are important. they are function declation and function calling.
+
+    syntax: 
+       
+        () ---> Placeholder of parameters or Passing through parameters
+        
+        // function declation
+        function functionName(){
+            // set of statements
+        }
+
+        // function calling
+        functionName();
+
+        () ---> Placeholder of arguments or Passing through arguments
 
 
 
