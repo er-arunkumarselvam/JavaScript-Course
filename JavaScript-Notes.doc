@@ -315,6 +315,71 @@ JavaScript Functions:
 
         () ---> Placeholder of arguments or Passing through arguments
 
+JavaScript Operators:
+
+    - Operators means
+    - Operators is a important play role an every programming language.
+
+        variable + Operators = Expression (Algorithm)
+
+
+    Types of Operators:
+
+        - Arithmatic Operators
+        - Comparison Operators
+        - Assignment Operators
+        - Logical Operators
+        - Bitwise Operators
+
+    Arithmatic Operator
+
+        - +,-, *, /, % and **
+        - Increament (++)
+            - preincreament (++value)
+            - postincreament (value++)
+        - Decreament (--)
+            - predecreament (--value)
+            - postdecreament (value--)
+
+    Assignment Operator
+
+        - = is assignment operator.
+        - To assign the value of variables
+
+    Comparison Operator
+
+        - Comparison operator produces "boolean(true, false)" as a result.
+        - Relational Operator -  >, <, <=, >= and ==
+        - Equality Operator -  === and ==
+        - Not Equality Operator - !== and !=
+
+        === ---> Strict Equality Operator. Compare both (Datatype + Value)
+        ==  ---> Lose Equality Operator. Compare (value)
+
+    Ternary Operator
+
+        syntax:
+
+            variableKeyword variableName = condition ? "Condition True Statement" : "Condition False Statement"
+
+            Ex:
+
+            let applyVoterId = age > 18 ? "Eligible" : "Not Eligible"
+
+    Logical Operator
+
+        - 3 Types
+
+            - Logical AND (&&)
+                Returns TRUE If both operands are TRUE (both conditions = TRUE)
+
+            - Logical OR (||)
+                Returns TRUE If any one operands are TRUE (any ond condition = TRUE)
+
+            - Logical NOT (!)
+                Returns TRUE If operand is FALSE (opposite condition FALSE = TRUE)
+        
+
 
 
 REFERENCE LINKS:
