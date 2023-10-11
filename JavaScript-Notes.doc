@@ -378,7 +378,42 @@ JavaScript Operators:
 
             - Logical NOT (!)
                 Returns TRUE If operand is FALSE (opposite condition FALSE = TRUE)
-        
+    
+        Logical Operator with Non Boolean Values:
+
+            false || true ---> true (using boolean result)
+
+            Non Boolean Values treated with different mechanism in JS. 2 Mechanisms
+
+                - Falsy (false)
+
+                    Falsy means doesn't exactly false, but some what false.
+
+                        - Undefined
+                        - null
+                        - 0 --> numbers
+                        - false
+                        - '' or "" --> strings
+                        - NaN
+
+                - Truthy
+
+                    Anything thant is not falsy is Truthy.
+
+            Short Circuiting Concept:
+
+                - First 2 condition only check, otherwise ignore this concept.
+
+                Ex: true || false || true ---> true 
+
+                    Last one true is not consider this condition.
+
+
+
+
+
+
+
 
 
 
