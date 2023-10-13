@@ -189,3 +189,34 @@ let defaultCard = "white";
 userCard = null;
 let currentCard = userCard || defaultCard;
 console.log("Selected Card:", currentCard);
+
+// Bitwise Operator
+console.log(1 | 2); // Bitwise OR (00000011)
+console.log(1 & 2); // Bitwise AND (00000000)
+
+// Permission Assigned
+
+// W -> 00000100 (4) -> Write
+// R -> 00000010 (2) -> Read
+// E -> 00000001 (1) -> Execute
+
+const writePermission = 4;
+const readPermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+
+myPermission = myPermission | readPermission  ;
+
+let message = (myPermission & readPermission) ? "Yes" : "No";
+
+console.log(message);
+
+// Operator Precedence
+
+let operatorPrecedence = 2+5*10 // 2 + (5*10) => 2 + 50 => 52
+let operatorPrecedence2 = (2+5)*10 // (2+5)*10 => 7 * 10 => 70
+
+console.log(operatorPrecedence);
+console.log(operatorPrecedence2);
+

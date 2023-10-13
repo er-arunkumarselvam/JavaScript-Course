@@ -408,7 +408,32 @@ JavaScript Operators:
 
                     Last one true is not consider this condition.
 
+    Bitwise Operators:
 
+        bits and bytes --> Memory allocation
+
+        Humar code --> Machine code (0,1) binary
+
+        1 -> 00000001
+        2 -> 00000010
+        3 -> 00000011
+
+    Operator Precedence:
+
+        Complex Calcaltion  approach in JavaScript.
+
+        BODMAS RULE
+
+            Bracket -> ( or )  <- Parenthesis
+            Order   -> √ or x² <- Exponent
+
+            Divide -> /
+            Multiplication -> *
+            Addition -> +
+            Subtraction -> -
+            
+
+        
 
 
 
@@ -422,3 +447,7 @@ REFERENCE LINKS:
 DEVELOPER MOZILLA FOUNDATION : https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 ECMA SCRIPT : https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+
+BINARY CALCULATOR : https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=2
+
+JS OPERATOR PRECEDENCE TABLE: https://www.dummies.com/article/technology/programming-web-design/general-programming-web-design/javascript-operator-precedence-254119/
