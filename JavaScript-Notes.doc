@@ -432,14 +432,86 @@ JavaScript Operators:
             Addition -> +
             Subtraction -> -
             
+JavaScript Conditional Statements:
 
-        
+    They are 2 types of conditional statements.
 
+        - If-else condition
+        - Switch-case condition
 
+        If-else condition:
 
+            syntax:
 
+                if(condition){
+                        // block of code
+                }
+                else{
+                        // block of code
+                }
 
+            One or more conditions using else if condition
 
+            syntax:
+
+                if(condition){
+                        // block of code
+                }
+                else if(condition){
+                        // block of code
+                }
+                else{
+                        // block of code
+                }
+
+            Pre or In buit function of Date and Time:
+
+                Date() --> In Built Function
+
+                Date().hours()
+
+            Create a object in new keyword method:
+
+                let objectName = new functionName();
+
+                Ex:
+
+                let hour = new Date();
+
+                or 
+
+                let hour = new Date().getHours();
+
+    Switch Case:
+
+        - Switch Case also same if else statement, but condition to be decided goto switch case or if else.
+
+        syntax:
+
+            switch(condition){
+                case 1:
+                  // block of code
+                  break;
+                case 2:
+                  // block of code
+                  break;
+                default:
+                  // block of code
+            }
+
+            multicase in single statement:
+
+            switch(condition){
+                case 1:
+                  // block of code
+                  break;
+                case 2:
+                case 3:
+                  // block of code
+                  break;
+                default:
+                  // block of code
+            }
 
 
 REFERENCE LINKS:
