@@ -46,6 +46,36 @@ body {
   font-weight: normal;
   font-size: 18px;
 }
+/* Menu  */
+.menu{
+  width: 82%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.menu-item{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none; 
+}
+.menu-list{
+  margin-left: 15px;
+}
+.menu-link{
+   padding: 10px 15px;
+  border: 1px solid #302906;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #302906;
+}
+.menu-list .active{
+  background: #fcd34d;
+  border: 1px solid #fcd34d;
+  border-radius: 6px;
+}
 /* Table */
 
 .topic-content table {
