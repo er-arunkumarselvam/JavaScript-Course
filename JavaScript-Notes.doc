@@ -513,6 +513,100 @@ JavaScript Conditional Statements:
                   // block of code
             }
 
+JavaScript Loops:
+
+    - For Loop
+    - While Loop
+    - Do While Loop
+    - For-in Loop
+    - For-of Loop
+
+        For Loop:
+
+            syntax:
+
+                for(initialExpression; condition; step){
+                    // block of code
+                }
+
+                    initialExpression -> intialize the value 
+                    condition -> Logical Portion
+                    step -> either increament or decreament
+
+                
+
+                for(initialExpression; condition; step)
+                            |
+                            |
+                        Inline Variable
+
+        While loop:
+
+            Global variable using for Loop
+
+            syntax: 
+
+                variable initialExpression;
+
+                while(condition){
+                    //block of code
+                    step;
+                }
+
+        Do-While loop: (Not used Mostly)
+
+            syntax:
+
+                variable initialExpression;
+                
+                do{
+                    // code
+                    step
+                }while(condition)
+
+
+        In Modern JavaScript:
+
+            For-in loop: To iterate the object and arrays value.
+
+            syntax:
+
+                for(variableKeyword key in object){
+                    // code
+                }
+
+            Ex:
+
+                const person = {
+                    name : "Arunkumar",
+                    age : 24
+                }
+
+                for (let key in person){
+                    console.log(key + ":" , person.key)
+                }
+
+            For-of loop: Better Iteration for arrays
+
+            syntax:
+
+                for(let variableName of array){
+                    // code
+                }
+
+            Ex:
+
+                let color = ["red", "blue", "green"];
+
+                for (let colors of color) {
+                console.log("Color: " + colors);
+                }
+
+
+
+
+
+
 
 REFERENCE LINKS:
 
