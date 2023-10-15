@@ -602,6 +602,93 @@ JavaScript Loops:
                 console.log("Color: " + colors);
                 }
 
+JavaScript Objects in OOPs:
+
+    - variable to create inside the object to be organized and maintained code easily. It means "Encapsulation"
+
+    2 types of variable accessing in output:
+
+        "sentence" + variableName or , variableName --> Normal Method
+
+        `sentence ${variableName}` --> tilda Method
+
+    Object inside function creation is called "Method".
+
+    syntax:
+
+        variableKeyword objectName = {
+            functionName : function(){
+                // block of code
+            }
+
+                        or
+            
+            functionName(){
+                //block of code
+            }
+        }
+
+        functinName();
+
+    Accessing the object variable inside the function using "this" keyword.
+
+                ${this.variableName}
+
+
+    Factory Function:
+
+        Naming Convection: CamelCase (createPerson)
+
+    syntax:
+
+        function functionName(parameter){
+            return {
+                variableName : value,
+                functionName : function(){
+                    // Block of code
+                }
+                            or
+            
+                functionName(){
+                    //block of code
+                }
+            };
+        }
+
+        creating dynamic values 
+
+        let variableName = functionName(argument);
+
+        variableName.functionName();
+
+        In Modern JS
+        
+            variableName and Value are same using this "variable name"
+            name ---> (name:name)
+
+    Constructor Functions:
+
+        Naming Convection: PascalCase (CreatePerson)
+
+    syntax: (FunctionName or ClassName or ConstructorName)
+
+        function ClassName(parameter){
+            
+                this.variableName : value,
+                this.functionName : function(){
+                    // Block of code
+                }
+                           
+            };
+
+        let variableName = new ClassName(argument);
+        variableName.functinName()
+    
+
+
+
+
+
 
 
 

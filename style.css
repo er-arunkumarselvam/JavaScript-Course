@@ -93,6 +93,7 @@ body {
 }
 .topic-content td {
   text-align: left;
+  cursor: pointer;
   padding: 8px;
   border: 1px solid #302906 ;
 }
@@ -108,3 +109,6 @@ body {
   text-decoration: underline;
   color:#0048ff ;
 }
+
+
+
