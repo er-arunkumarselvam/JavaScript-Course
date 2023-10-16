@@ -48,3 +48,26 @@ let person = new PersonDetails("Arunkumar")
 
 // Constructor Function Calling
 person.greeting();
+
+// Dynamic Object Creation
+const student ={
+  name : "Arunkumar"
+}
+
+student.age = 24;
+student.greeting = function(){}
+
+console.log("Dynamic Object Creation", student);
+
+// Dynamic Object Editing
+student.age = 25;
+
+console.log("Dynamic Object Editing", student);
+
+// Dynamic Object Deletion
+
+delete student.greeting;
+
+console.log("Dynamic Object Deletion", student);
+
+

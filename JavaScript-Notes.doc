@@ -683,6 +683,27 @@ JavaScript Objects in OOPs:
 
         let variableName = new ClassName(argument);
         variableName.functinName()
+
+
+Dynamic Objects: (Create, Edit and Delete)
+
+    - It means objects working on dynamic like add the new values, accessing dynamically and delete the values.
+    - In log objects don't be concatenation(+).
+
+        "sentense" + objectName ---> WRONG
+
+        "sentence" , objectName ---> CORRECT
+
+    Delete Object:
+
+    syntax:
+
+        delete objectName.variableName
+
+    Ex:
+
+        delete student.age;
+
     
 
 
