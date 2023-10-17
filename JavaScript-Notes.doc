@@ -704,15 +704,91 @@ Dynamic Objects: (Create, Edit and Delete)
 
         delete student.age;
 
+Constructor Property:
+
+    Object() --> In built constructor in JavaScript
     
 
+    Object Literals - let x = {} --> let x = new Object()
+    String Literals - let name = "Arun" --> let name = new String("Arun")
+    Number Literals - let age = 24 --> let age = new Number(24)
+    Boolean Literals - let isAlive = true --> let isAlive = new Boolean(true)
+
+Functions are Object!
+
+    Functions is kind of objects.
+
+    some inbuilt methods in object:
+
+        - name
+        - length
+        - constructor
+        - call
+        - apply
+
+    name : Display Function name
+    lenght : length of function
+    constructor : Call default constructor
+    call : 
+
+        FunctionName.call({ }, "values", "values");
+                           |
+                           |
+                          this
+
+            - It reference of this value
+
+    apply :
+
+        FunctionName.call({ }, ["values", "values"]);
+                           |            |
+                           |            |
+                          this     value represent an array
+
+            - It reference of this value
 
 
+    Tip:
 
+       In Vs code "purple" color - "Methods"
 
+Primitive Values vs Reference Values:
 
+    Primitive Types                                             Reference Types
 
+        Number                                                      Object
+        String                                                      Array       
+        Boolean                                                     Function
+        Symbol (Developed by ES6+ Module)
+        Undefined
+        Null
 
+    Ex:
+
+        let x = 10; (from x value copy)
+        let y = x; (to paste the x value )
+
+        x = 20;
+
+        print x = 20
+        print y = 10
+
+    Primitive Values:
+       - Both x & y variables are Independent!
+       - It doesn't care what you do with x variable.
+       - These are independent variales.
+
+    Ex:
+
+        let a = { value: 5 }; (Refer the value only. Don't copy the value) ---> Random Memory Address
+        let b = a; (Refer the memory location Id.)
+
+        a.value = 10;
+
+    Reference Values:
+
+        - Don't copy the value. Only refer the memory location.
+        - This is known as Reference Value.
 
 
 
