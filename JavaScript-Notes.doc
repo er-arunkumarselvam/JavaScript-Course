@@ -790,6 +790,63 @@ Primitive Values vs Reference Values:
         - Don't copy the value. Only refer the memory location.
         - This is known as Reference Value.
 
+Enumerating Properties of an Object:
+
+    - Objects are not Iteratable
+
+            for (let key of user)
+                    console.log(key)
+
+            // TypeError: Object is not Iterable
+
+        Iteratable:
+            - Arrays
+            - Map
+
+        If your iterate the object is converted in array format
+
+            for (let key of Object.keys(user))
+                console.log(key)
+
+        Object.keys ---> Get the key from the object
+        Object.entries ---> Get the both keys and value from the object
+
+Cloning an Object:
+
+    - It means copy of an object and it duplicate copy of object
+    
+        3 Methods to create Object clone
+
+            - Traditional (For in) Method
+            - Assign Method
+
+                syntax:
+                    
+                    Object.assign(target,source)
+
+                Ex:
+
+                    let anotherObject = Object.assign({key:values},user)
+
+            - Modern Method
+
+                - In Modern JS intruduce Spread Operator to clone the object in all frameworks like react js, angular js and vue js, etc.,
+
+                syntax:
+
+                    {...objectName}
+
+                Ex:
+
+                    let anotherObject = {...user}
+
+JavaScript Garbage Collection:
+
+        - Memory stored in system mermory.
+        - Automatically JS clean the memory. Garbage collection is automated in js. (v8 engine to prefectly handled)
+        - Mermory Freed
+
+        
 
 
 REFERENCE LINKS:
