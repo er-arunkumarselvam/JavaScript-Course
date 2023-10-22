@@ -48,4 +48,3 @@ console.log("Modern Method (...)");
 let anotherObj = {...user};
 console.log(anotherObj);
 
-// Garbage Collection

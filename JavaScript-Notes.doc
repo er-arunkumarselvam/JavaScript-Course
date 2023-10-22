@@ -846,6 +846,55 @@ JavaScript Garbage Collection:
         - Automatically JS clean the memory. Garbage collection is automated in js. (v8 engine to prefectly handled)
         - Mermory Freed
 
+JavaScript Inbuilt Objects:
+
+    Case sensitive 
+
+    - Math Object
+    - String Object
+
+
+        Math Object:
+
+            - Static Properties
+                PI (more)
+
+            - Static Methods
+                random()
+                ceil()
+                floor()
+                round()
+                max()
+                min() (more)
+
+        String Object:
+
+            Propertices 
+
+                length
+            
+            Methods
+
+                charAt()
+                includes() --> find the letter or name present in the object
+                concat()
+                endWith()
+                indexOf()
+                repeat()
+                replace()
+                slice() --> cut the sentence
+                split() --> sentence will be spliting
+                substr()
+                toLowerCase()
+                toUpperCase()
+                trim() --> White space trim
+                trimStart()
+                trimEnd() 
+
+
+
+
+
         
 
 
@@ -858,3 +907,6 @@ ECMA SCRIPT : https://www.ecma-international.org/publications-and-standards/stan
 BINARY CALCULATOR : https://www.rapidtables.com/convert/number/decimal-to-binary.html?x=2
 
 JS OPERATOR PRECEDENCE TABLE: https://www.dummies.com/article/technology/programming-web-design/general-programming-web-design/javascript-operator-precedence-254119/
+
+Inbuilt Objects : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
