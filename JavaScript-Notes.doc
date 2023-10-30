@@ -891,7 +891,36 @@ JavaScript Inbuilt Objects:
                 trimStart()
                 trimEnd() 
 
+            
+        Date Object:
 
+            Methods
+
+                - Date()
+                - Date.now()
+                - Date.getFullYear()
+                - Date.setFullYear()
+
+JavaScript Template Literals:
+
+    Escape Notation:
+
+        \n - new Line
+        '"\"' - bypassing double quotes
+
+    Object Literals - {}
+    Boolean Literals - true, false
+    String Literals - '', ""
+    Template Literals - ``
+
+
+    Template Literals:
+
+        - Introduce to ES6.
+        - Using ``(backtick)
+        - Format is easy use
+
+        
 
 
 

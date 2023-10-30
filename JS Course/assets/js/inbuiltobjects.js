@@ -80,6 +80,23 @@ console.log(message.trim());
 console.log(message.trimStart());
 console.log(message.trimEnd());
 
+// Date Object
+console.log("Date Object - Date()");
+
+// Date() (Not Perferable)
+const date = Date().toString();
+console.log(date, typeof date);
+// Creation of object with date (Right Way)
+const dateNow = new Date();
+console.log(dateNow, typeof dateNow);
+// Set Year
+dateNow.setFullYear("1998");
+console.log(dateNow.getFullYear());
+
+// Multiple Variable
+let [month, dates, year] = new Date().toLocaleDateString("en-IN").split("-");
+
+console.log(month);
 
 
 
