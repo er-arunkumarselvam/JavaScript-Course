@@ -920,6 +920,50 @@ JavaScript Template Literals:
         - Using ``(backtick)
         - Format is easy use
 
+JavaScript Arrays:
+
+    - Adding/Pushing element to Array
+    - Finding/Filtering an element in an Array
+    - Removing an element in an Array
+    - Splitting the arrays
+    - Combining the arrays
+
+    Adding Elements to an JS Array
+
+        Dynamically adding element in arrays:
+
+            push
+                Add the element at last position in the array
+            unshift
+                Add the element at very first position in the array
+            splice
+                Add the element at any position in the array
+
+                    arrayName.splice(indexno, deleteindexno, value)
+
+                eg:
+
+                    foodItems.splice(3, 0, "Mutton Gravy")
+
+    Finding element in an JS Array:
+
+        Some Inbuilt Method:
+
+            PRIMITIVE TYPE:
+                indexOf()
+
+                    - Array not present the value in default value is -1.
+
+                includes() 
+
+                    - Find the element arrays.
+
+            REFERENCE TYPE:
+                find()
+
+
+
+
         
 
 
