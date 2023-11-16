@@ -37,9 +37,9 @@ console.log(fruitBuget.includes("orange"));
 console.log("Finding element in an JS Array - REFERENCE TYPE");
 const cartItem = [
     {id:1, itemName:"Redmi", price:10000},
-    {id:2, itemName:"Samsung", quantity:16000},
-    {id:3, itemName:"iPhone", quantity:26000},
-    {id:4, itemName:"Oneplus", quantity:13000},
+    {id:2, itemName:"Samsung", price:16000},
+    {id:3, itemName:"iPhone",  price: 26000},
+    {id:4, itemName:"Oneplus", price:13000},
 ]
 
 // find()
