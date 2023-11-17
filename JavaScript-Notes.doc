@@ -961,10 +961,54 @@ JavaScript Arrays:
             REFERENCE TYPE:
                 find()
 
+                    - find the objects elements in given array 
+                
+                findIndex()
+
+                    - Find the position or index of element in given array
+
+            
+    -------- Arrow Function ----------- (IMPORTANT)
+
+    Normal Function                                 Arrow function
+
+        function(params){                               (params) => {
+            // your logic                                   // your logic
+        }                                                }
 
 
+        Ex of Arrow Function:(Modern JS)
 
-        
+            () => {
+                // your logic
+            }
+
+            (param1, param2) => {
+                // your logic
+            }
+
+    Removing elements in the array:
+
+        Adding           Removing
+
+        push (End)          pop
+        unshift (Start)     shift
+        splice (Middle)     splice
+
+
+        splice(startIndex, deleteCount)
+
+    Emptying an JS Array:
+
+        Many Ways:
+
+            1. Based on dependable variable (RECOMMENDED)
+            2. Based on assign length = 0 (RECOMMENDED)
+            3. Using Splice Method (SLIGHTLY RECOMMENDED)
+            4. Using Pop Method (NOT RECOMMENDED)
+
+                -Performance Issuse
+                -Over RAM Usage
 
 
 

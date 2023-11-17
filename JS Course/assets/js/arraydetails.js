@@ -53,3 +53,57 @@ let findIndexNo = cartItem.findIndex(function (cartItem) {
   return cartItem.itemName === "iPhone";
 });
 console.log(findIndexNo);
+
+// Arrow Function
+// let findIndexNo = cartItem.findIndex((cartItem) => {
+//   return cartItem.itemName === "iPhone";
+// });
+// console.log(findIndexNo);
+
+// Removing element in the array
+console.log("Removing element in the array");
+const number = [1,2,3,4]
+
+// Pop (End)
+console.log(number);
+console.log(number.pop());
+console.log(number);
+
+// shift (Start)
+console.log(number);
+console.log(number.shift());
+console.log(number);
+
+// Splice
+const vowels = ['a', 'e', 'i', 'o', 'u']
+
+console.log(vowels);
+console.log(vowels.splice(2, 2));
+console.log(vowels);
+
+
+// Emptying an JS Array
+console.log("Emptying an JS Array");
+let numbers = [1,2,3,4,5] // Memory 1 allocated
+
+// Way-1 (based on Dependable Variable) (RECOMMENDED)
+let another_numbers = numbers; // Depandable variable created not delete on memory 1 in garbage collector.
+numbers=[] // Menmory 2 allocated
+console.log(numbers);
+
+// Way-2 (based on Length) (RECOMMENDED)
+let numbers_set2 = [6, 5, 3, 4, 2];
+numbers_set2.length = 0; // Assign length = 0
+console.log(numbers_set2);
+
+// Way-3 (using spice method)
+let numbers_set3=[7,6,8,9,4];
+numbers_set3.splice(0,numbers_set3.length)
+console.log(numbers_set3);
+
+// Way-4 (using pop method) (NOT RECOMMENDED)
+let numbers_set4 = [7, 6, 8, 9, 4];
+while (numbers_set4.length){
+  numbers_set4.pop();
+}
+console.log(numbers_set4);
